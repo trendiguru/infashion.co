@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro:300");
+button {
+  border: 0;
+  font: inherit;
+  cursor: pointer; }
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: #FF5792;
+  margin: 1em;
+  font-weight: 400; }
+
+h2 {
+  font-weight: inherit;
+  text-align: center;
+  font-size: 2.2em; }
+
+button.chrome {
+  padding: 0;
+  overflow: hidden;
+  background: #fff;
+  border-radius: .125em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  transition: box-shadow .25s;
+  width: 13em;
+  padding: .5em;
+  margin: 0 auto 3em;
+  display: block;
+  text-align: left; }
+  button.chrome:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19); }
+  button.chrome img {
+    width: 3em;
+    float: left;
+    margin-right: .5em; }
+  button.chrome h5,
+  button.chrome h6 {
+    margin: 0; }
+  button.chrome h5 {
+    font-size: 1.125em; }
+  button.chrome h6 {
+    font-size: 0.875em; }
+
+#preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+  position: relative; }
+  #preview div {
+    position: relative; }
+  #preview img {
+    width: 15em; }
+  #preview #guide {
+    width: 5em;
+    height: 9em;
+    position: absolute;
+    top: -6em;
+    right: -5em; }
+
+section {
+  overflow: hidden;
+  background: #F5F5F5; }
+  section h2 {
+    max-width: 30rem;
+    margin: .7 5em auto; }
+
+/*# sourceMappingURL=main.css.map */
