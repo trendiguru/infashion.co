@@ -85,11 +85,14 @@ button.chrome {
 #partners {
   display: flex;
   flex-wrap: wrap; }
+  #partners a {
+    min-width: 15em;
+    flex: 1;
+    margin-bottom: 2em;
+    text-align: center; }
   #partners img {
     min-width: 15em;
-    height: 3em;
-    flex: 1;
-    margin-bottom: 2em; }
+    height: 3em; }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
