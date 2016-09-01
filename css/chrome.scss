@@ -1,0 +1,27 @@
+button.chrome {
+    @include card (3);
+    width: 13em;
+    padding: .5em;
+    margin: 0 auto 3em;
+    display: block;
+    text-align: left;
+
+    img {
+        width: 3em;
+        float: left;
+        margin-right: .5em;
+    }
+
+    h5,
+    h6 {
+        margin: 0;
+    }
+
+    h5 {
+        font-size: 1.125em;
+    }
+
+    h6 {
+        font-size: 0.875em;
+    }
+}

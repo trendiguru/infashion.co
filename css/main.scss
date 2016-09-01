@@ -1,90 +1,15 @@
 @import 'reset';
-@import url('https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro:300');
+@import 'colors';
 @import 'card';
-
-$pink500: #FF5792;
-$grey100: #F5F5F5;
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro:300');
+@import 'elements';
+@import 'chrome';
+@import 'preview';
+@import 'partners';
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     margin: 0;
     padding: 0;
-}
-
-h1 {
-    font-family: 'Pacifico', cursive;
-    color: $pink500;
-    margin: 1em;
-    font-weight: 400;
-}
-
-h2 {
-    font-weight: inherit;
-    text-align: center;
-    font-size: 2.2em;
-}
-
-button.chrome {
-    @include card (3);
-    width: 13em;
-    padding: .5em;
-    margin: 0 auto 3em;
-    display: block;
-    text-align: left;
-
-    img {
-        width: 3em;
-        float: left;
-        margin-right: .5em;
-    }
-
-    h5,
-    h6 {
-        margin: 0;
-    }
-
-    h5 {
-        font-size: 1.125em;
-    }
-
-    h6 {
-        font-size: 0.875em;
-    }
-}
-
-#preview {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: space-between;
-    flex-wrap: wrap;
-    position: relative;
-
-    div {
-        position: relative;
-    }
-
-    img {
-        width: 15em;
-    }
-
-    #guide {
-        width: 5em;
-        height: 9em;
-        position: absolute;
-        top: -6em;
-        right: -5em;
-    }
-
-}
-
-section {
-    overflow: hidden;
-    background: $grey100;
-
-    h2 {
-        max-width: 30rem;
-        margin: .7 5em auto;
-    }
 }

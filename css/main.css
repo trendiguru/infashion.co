@@ -1,25 +1,40 @@
 @import url("https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro:300");
+h1, h2, h3, h4, h5, h6 {
+  font: inherit; }
+
 button {
   border: 0;
   font: inherit;
   cursor: pointer; }
 
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-  margin: 0;
-  padding: 0; }
+.grey100 {
+  background: #F5F5F5; }
 
-h1 {
+h1,
+h3 {
   font-family: 'Pacifico', cursive;
   color: #FF5792;
-  margin: 1em;
   font-weight: 400; }
+
+h1 {
+  font-size: 2em;
+  margin: 1em; }
 
 h2 {
   font-weight: inherit;
   text-align: center;
   font-size: 2.2em; }
+
+h3 {
+  font-size: 1.75em;
+  text-align: center;
+  margin: 1.5em; }
+
+section {
+  overflow: hidden; }
+  section h2 {
+    max-width: 30rem;
+    margin: .75em auto; }
 
 button.chrome {
   padding: 0;
@@ -53,7 +68,8 @@ button.chrome {
   justify-content: center;
   align-content: space-between;
   flex-wrap: wrap;
-  position: relative; }
+  position: relative;
+  margin-bottom: 2em; }
   #preview div {
     position: relative; }
   #preview img {
@@ -65,11 +81,19 @@ button.chrome {
     top: -6em;
     right: -5em; }
 
-section {
-  overflow: hidden;
-  background: #F5F5F5; }
-  section h2 {
-    max-width: 30rem;
-    margin: .7 5em auto; }
+#partners {
+  display: flex;
+  flex-wrap: wrap; }
+  #partners img {
+    min-width: 15em;
+    height: 3em;
+    flex: 1;
+    margin-bottom: 2em; }
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,25 @@
+#preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 2em;
+
+    div {
+        position: relative;
+    }
+
+    img {
+        width: 15em;
+    }
+
+    #guide {
+        width: 5em;
+        height: 9em;
+        position: absolute;
+        top: -6em;
+        right: -5em;
+    }
+}
