@@ -56,7 +56,8 @@ button.chrome {
     margin-right: .5em; }
   button.chrome h5,
   button.chrome h6 {
-    margin: 0; }
+    margin: 0;
+    text-decoration: none; }
   button.chrome h5 {
     font-size: 1.125em; }
   button.chrome h6 {
